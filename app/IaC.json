@@ -1,0 +1,23 @@
+
+{
+  "resources": [
+    {
+      "id": "cloud-res-001",
+      "name": "app-storage-bucket",
+      "type": "storage.bucket",
+      "provider": "aws",
+      "region": "us-west-1",
+      "properties": {
+        "bucketName": "app-storage-bucket",
+        "versioning": true,
+        "encryption": "AES256"
+      },
+      "tags": {
+        "environment": "production",
+        "owner": "platform-team",
+        "totalAmount": "22kb"
+      }
+
+    }
+  ]
+}
